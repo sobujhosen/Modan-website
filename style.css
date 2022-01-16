@@ -1,0 +1,314 @@
+/* body style start */
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* header style start */
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+
+}
+nav ul li{
+    display: block;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+
+
+/* top section style start */
+
+ .contanior{
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 20px;
+}
+
+  
+ .contanior-left{
+width: 100%;
+margin-left: 5%;
+margin-right: 5%;
+
+}
+.contanior-left h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+.contanior-left p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bouton{
+    display: flex;
+     
+}
+.btn{
+    color: white;
+    background: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+}
+.btn-link{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+   
+    margin-right: 8px;
+    
+}
+.contanior-right{
+    width:100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
+    
+}
+
+.contanior-right img{
+    width: 100%;
+}
+
+#bg-right{
+    
+    background-image: url(images/Circle-design.svg);
+    background-repeat: no-repeat;
+}
+ 
+
+/* top section style end  */
+
+/* add section style start  */
+.logo-section{
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+.add-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;   
+}
+
+/* add section style End  */
+
+/* product style  start */
+
+.populalr-products{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.popular-title{
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+.product-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
+    
+}
+
+.product{
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px #00000026;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.product-detail{
+    padding: 0px;
+    margin-top: 0px;
+    align-content: space-around;
+}
+.product-banner{
+    
+    width: 300px;
+    height: 256px;
+}
+
+.product-title{
+    font-size: 28px;
+    
+}
+.product-price{
+    font-size: 24px;
+}
+.product-reting{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.fa-star.filled{
+    color: coral;
+    padding: 2px;
+
+}
+.fa-star-half-alt{
+    color: coral;
+    padding: 2px;
+}
+.reting{
+    padding: 8px;
+    
+}
+.product-info{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.product-link{
+    
+    font-size: 16px;
+    font-weight: 700;
+   
+    text-align: right;
+    margin-right: 20px;
+}
+.product-link a{
+    
+    color: #E02C6D;
+    
+    text-decoration: none;
+}
+
+/* product style  end */
+
+
+
+/* Featured products style start  */
+
+.contanier{
+    display: flex;
+    
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contanier-left{
+    width: 100%;
+
+}
+
+
+
+
+/* Featured products style End  */
+
+
+
+
+
+/* footer style */
+footer{
+    height: 200px;
+    
+    background-color: #180e20;
+    color: cornsilk;
+    text-align: center;
+   
+}
+.footer-info{
+    padding: 10px;
+
+}
+.icon{
+    color: whitesmoke;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+/* media queries start */
+
+
+/* mobile devices  */
+
+@media only screen and (max-width:688px) {
+
+.contanior{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.logo-section{
+    display: none;
+}
+
+
+    .populalr-products{
+        width: 100%;
+    }
+    
+.product-list{
+    grid-template-columns: repeat(1,1fr);
+    
+}
+
+
+
+
+
+}
+    
+
+/* i pad devices  */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    .contanior{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .logo-section{
+        display: flexbox;
+
+    .populalr-products {
+        width: 100%;
+    }
+    
+    }
+.product-list{
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+/* media queries end  */
+
+
+
+    
